@@ -18,7 +18,7 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 | iOS / iPadOS（带小组件） | 29.12 (3) | `SIMHub-29.12-widgets.ipa` | iOS / iPadOS 17.0 及以上 | **只适合付费开发者账号自签。** 保留小组件和 App Group，签名工具要支持扩展签名；免费 Apple ID 签不了 |
 | iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
-| Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
+| Android | 0.1.3 (4) | `SIMHub-Android-0.1.3.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
 
 ## 怎么安装
 
@@ -67,7 +67,7 @@ SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合�
 
 ## Android 版
 
-[下载 SIMHub-Android-0.1.2.apk](../../releases/tag/android-v0.1.2)
+[下载 SIMHub-Android-0.1.3.apk](../../releases/tag/android-v0.1.3)
 
 **安装**：在 Android 手机上下载 APK 后打开，按提示允许浏览器或文件管理器「安装未知应用」即可，不需要重签。
 
