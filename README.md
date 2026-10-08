@@ -15,6 +15,7 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
 | iOS / iPadOS | 29.11 (1) | `esimSubscription.ipa` | iOS / iPadOS 17.0 及以上 | 与 App Store 最后一版相同 |
+| iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
 
@@ -31,6 +32,15 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 1. 免费 Apple ID 签出来的 App **7 天到期**，到期前用同一工具刷新一次即可，数据不会丢；付费开发者账号一年。
 2. 重签时请**去掉**这几项权限（工具里一般叫「移除权限 / Remove entitlements」）：iCloud（CloudKit）、推送通知（aps-environment）、密码自动填充（autofill-credential-provider）。免费账号签不了这些，不去掉会安装失败。去掉后 iCloud 同步和推送不可用，其他功能不受影响。
 3. App Group 和 Bundle ID 按工具默认处理即可。
+
+## SIMKit（iOS 15 兼容版）
+
+[下载 SIMKit.ipa](../../releases/tag/simkit-v7.0)
+
+SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合还在用 iOS 15 / 16 的 iPhone / iPad。系统是 iOS 17 及以上的，建议直接用上面的 SIMHub。
+
+- **安装**：与 SIMHub 的 IPA 相同，用自己的 Apple ID 重新签名后安装，注意事项见上方「怎么安装」。
+- SIMKit 与 SIMHub 是两个独立的 App，可以同时安装，数据不互通；迁移请用 App 内的导出 / 导入备份。
 
 ## Mac 版
 
