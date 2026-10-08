@@ -69,3 +69,20 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad，以及 Andr
 ## 反馈
 
 问题和建议请发 [Issues](../../issues)。
+
+## 免责声明
+
+1. **仅供个人学习与研究使用。** 本仓库提供的安装包仅用于学习 SIM / eSIM、读卡器与 Wi-Fi 通话等相关技术，以及管理你本人合法持有的 SIM 卡和 eSIM。请勿用于任何商业用途。
+2. **只能用于你本人合法持有、已完成实名登记的号码和卡片。** 不得用于他人的卡片或号码，不得用于盗用、冒用他人身份，不得规避运营商的实名制、计费或其他服务条款。
+3. **严禁用于任何违法违规用途**，包括但不限于：电信网络诈骗、冒充他人或机构、骚扰电话与垃圾短信、批量注册或养号、为诈骗等违法活动提供通信帮助（「两卡」相关违法行为）、绕过监管或运营商限制。
+4. **防诈骗措施。** 本应用不支持拨打中国大陆号码（+86），也不支持紧急呼叫；不会读取、导出或上传 SIM 卡内的密钥，所有鉴权由 SIM 卡自身完成。请不要尝试修改或绕过这些限制。
+5. **请遵守你所在国家 / 地区的法律法规**以及运营商的服务条款。因使用本应用产生的一切后果，包括但不限于号码被运营商停用、费用损失、法律责任等，均由使用者自行承担。
+6. **按「现状」提供，不作任何保证。** 开发者不对本应用的可用性、稳定性及适用于特定用途作任何明示或暗示的保证，也不对因使用或无法使用本应用造成的任何直接或间接损失承担责任。
+7. **与运营商及厂商无关。** SIMHub 是独立开发的工具，与任何运营商、eSIM 服务商或读卡器厂商均无关联，文中提到的名称和商标归其各自所有者。
+8. 如发现有人利用本应用从事诈骗等违法活动，请立即向当地公安机关报案（中国大陆可拨打 110 或反诈专线 96110）。
+
+**下载、安装或使用本应用，即表示你已阅读并同意以上声明。**
+
+### Disclaimer (English)
+
+For **personal learning and research only**. Use it only with SIM cards and numbers that you legally own. Any illegal use — including telecom fraud, impersonation, harassment, spam, bulk registration, or circumventing carrier rules or real-name requirements — is strictly prohibited. The app blocks calls to mainland China numbers (+86), does not support emergency calls, and never reads or exports SIM secret keys. You are solely responsible for complying with local laws and carrier terms. The software is provided "as is" without warranty of any kind, and the developer is not liable for any loss or consequence arising from its use. SIMHub is independent and not affiliated with any carrier, eSIM provider or reader manufacturer.
