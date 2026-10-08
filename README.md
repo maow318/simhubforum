@@ -14,15 +14,14 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
-| iOS / iPadOS（自签用） | **29.12 (1)** | `SIMHub-29.12-sideload.ipa` | iOS / iPadOS 17.0 及以上 | **用 AltStore / Sideloadly / 轻松签等自签请下这个。** 已去掉小组件、密码自动填充扩展和 iCloud / 推送等受限权限，任何签名工具不用改设置直接签 |
-| iOS / iPadOS（完整包） | 29.12 (1) | `esimSubscription.ipa` | iOS / iPadOS 17.0 及以上 | 开发者登记设备直装用；自签需要手动去权限、去扩展 |
+| iOS / iPadOS | **29.12 (1)** | `SIMHub-29.12.ipa` | iOS / iPadOS 17.0 及以上 | **只下这一个文件。** 已去掉免费 Apple ID 签不了的权限和扩展，任何签名工具不用改设置直接签 |
 | iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
 
 ## 怎么安装
 
-自签请下载 **`SIMHub-29.12-sideload.ipa`**，用自己的 Apple ID 重新签名后安装，常用工具：
+下载 **`SIMHub-29.12.ipa`**（Release 页里只需要这一个文件，「Source code」是 GitHub 自动生成的，不用下），用自己的 Apple ID 重新签名后安装，常用工具：
 
 - [AltStore](https://altstore.io)（Mac / Windows 配合 AltServer）
 - [Sideloadly](https://sideloadly.io)（Mac / Windows）
@@ -83,16 +82,10 @@ SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合�
 
 ## 校验
 
-`SIMHub-29.12-sideload.ipa` SHA-256：
+`SIMHub-29.12.ipa` SHA-256：
 
 ```
 dd5ee6390081ed171b8ae7769a91e0960a2ec6e6ff974343d810166c4d7a015c
-```
-
-`esimSubscription.ipa` (29.12) SHA-256：
-
-```
-842369a252088032f9560ac04db3c0439ab0812dbb1519bb2768604a53e08c5b
 ```
 
 `esimSubscription.ipa` (29.11) SHA-256：
