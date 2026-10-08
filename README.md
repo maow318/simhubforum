@@ -1,4 +1,8 @@
-# SIMHub 下载
+<p align="center">
+  <img src="assets/icon.png" width="128" height="128" alt="SIMHub">
+</p>
+
+<h1 align="center">SIMHub 下载</h1>
 
 SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad，以及 Android）：接上读卡器就能管理 eSIM 芯片卡里的 Profile，还能让读卡器里的卡直接在手机上用 Wi-Fi 通话收发短信、打接电话。
 
