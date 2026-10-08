@@ -4,7 +4,7 @@
 
 <h1 align="center">SIMHub 下载</h1>
 
-SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad，以及 Android）：接上读卡器就能管理 eSIM 芯片卡里的 Profile，还能让读卡器里的卡直接在手机上用 Wi-Fi 通话收发短信、打接电话。
+SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以及 Android）：接上读卡器就能管理 eSIM 芯片卡里的 Profile，还能让读卡器里的卡直接在手机上用 Wi-Fi 通话收发短信、打接电话。
 
 > **2026-10-07 起 SIMHub 已从 App Store 移除，正在申诉中。** 已经安装的用户可以继续使用，但无法从 App Store 重新下载。这里提供 IPA 安装包，供已有用户换机 / 重装使用。本仓库只放安装包，不含源代码。
 
@@ -15,6 +15,7 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad，以及 Andr
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
 | iOS / iPadOS | 29.11 (1) | `esimSubscription.ipa` | iOS / iPadOS 17.0 及以上 | 与 App Store 最后一版相同 |
+| macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
 
 ## 怎么安装
@@ -30,6 +31,14 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad，以及 Andr
 1. 免费 Apple ID 签出来的 App **7 天到期**，到期前用同一工具刷新一次即可，数据不会丢；付费开发者账号一年。
 2. 重签时请**去掉**这几项权限（工具里一般叫「移除权限 / Remove entitlements」）：iCloud（CloudKit）、推送通知（aps-environment）、密码自动填充（autofill-credential-provider）。免费账号签不了这些，不去掉会安装失败。去掉后 iCloud 同步和推送不可用，其他功能不受影响。
 3. App Group 和 Bundle ID 按工具默认处理即可。
+
+## Mac 版
+
+[下载 SIMHub-macOS-29.11.zip](../../releases/tag/mac-v29.11)
+
+**安装**：下载后双击解压，把 `SIMHub.app` 拖进「应用程序」文件夹，双击打开。App 已通过 Apple 公证，不需要重签，也不会出现「无法验证开发者」的提示。
+
+**说明**：Mac 版支持 USB 读卡器和 4G 模块，也可以作为「Mac 转发」把插在 Mac 上的读卡器 / 模块卡借给 iPhone 使用。
 
 ## Android 版
 
