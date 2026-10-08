@@ -14,7 +14,8 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
-| iOS / iPadOS | **29.12 (1)** | `SIMHub-29.12.ipa` | iOS / iPadOS 17.0 及以上 | **只下这一个文件。** 已去掉免费 Apple ID 签不了的权限和扩展，任何签名工具不用改设置直接签 |
+| iOS / iPadOS | **29.12 (2)** | `SIMHub-29.12.ipa` | iOS / iPadOS 17.0 及以上 | **用免费 Apple ID 自签下这个（大多数人）。** 已去掉免费账号签不了的权限和扩展，任何签名工具默认设置直接签 |
+| iOS / iPadOS（带小组件） | 29.12 (2) | `SIMHub-29.12-widgets.ipa` | iOS / iPadOS 17.0 及以上 | **只适合付费开发者账号自签。** 保留小组件和 App Group，签名工具要支持扩展签名；免费 Apple ID 签不了 |
 | iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
@@ -41,7 +42,7 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 重签时请注意：
 
 1. 免费 Apple ID 签出来的 App **7 天到期**，到期前用同一工具刷新一次即可，数据不会丢；付费开发者账号一年。
-2. 自签包里没有 iCloud 同步、推送、小组件和密码自动填充，其他功能（读卡器、eSIM 管理、Wi-Fi 通话、短信、电话、台账）都在。
+2. 自签包里没有 iCloud 同步和推送；`SIMHub-29.12.ipa` 另外没有小组件和密码自动填充。其他功能（读卡器、eSIM 管理、Wi-Fi 通话、短信、电话、台账）都在。付费开发者账号可以签 `SIMHub-29.12-widgets.ipa` 拿回小组件。
 3. **手机上如果还装着 App Store 下载的 SIMHub，先导出备份再删掉它**，否则会提示无法安装（同一个 App 不能同时存在两种签名）。装好自签版后导入备份即可。
 4. 免费 Apple ID 一周内最多签 10 个 App ID、同时最多装 3 个自签 App，超了会安装失败，删掉一个再试。
 5. 重签后**一启动就闪退**：说明用的是 29.11 或更早的包，换 29.12。
@@ -93,10 +94,16 @@ SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合�
 
 ## 校验
 
-`SIMHub-29.12.ipa` SHA-256：
+`SIMHub-29.12.ipa` (29.12 (2)) SHA-256：
 
 ```
-dd5ee6390081ed171b8ae7769a91e0960a2ec6e6ff974343d810166c4d7a015c
+72a49f230835ffec3782ab9fbf9f0d472a944f2c8f4dd8a9877807ac67955d5e
+```
+
+`SIMHub-29.12-widgets.ipa` (29.12 (2)) SHA-256：
+
+```
+044eef813fe07016fe5b178163de43c89be52e7e9e1073690e6ec1c1048cb120
 ```
 
 `esimSubscription.ipa` (29.11) SHA-256：
