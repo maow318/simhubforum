@@ -14,8 +14,8 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
-| iOS / iPadOS | **29.12 (2)** | `SIMHub-29.12.ipa` | iOS / iPadOS 17.0 及以上 | **用免费 Apple ID 自签下这个（大多数人）。** 已去掉免费账号签不了的权限和扩展，任何签名工具默认设置直接签 |
-| iOS / iPadOS（带小组件） | 29.12 (2) | `SIMHub-29.12-widgets.ipa` | iOS / iPadOS 17.0 及以上 | **只适合付费开发者账号自签。** 保留小组件和 App Group，签名工具要支持扩展签名；免费 Apple ID 签不了 |
+| iOS / iPadOS | **29.12 (3)** | `SIMHub-29.12.ipa` | iOS / iPadOS 17.0 及以上 | **用免费 Apple ID 自签下这个（大多数人）。** 已去掉免费账号签不了的权限和扩展，任何签名工具默认设置直接签 |
+| iOS / iPadOS（带小组件） | 29.12 (3) | `SIMHub-29.12-widgets.ipa` | iOS / iPadOS 17.0 及以上 | **只适合付费开发者账号自签。** 保留小组件和 App Group，签名工具要支持扩展签名；免费 Apple ID 签不了 |
 | iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
@@ -94,16 +94,16 @@ SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合�
 
 ## 校验
 
-`SIMHub-29.12.ipa` (29.12 (2)) SHA-256：
+`SIMHub-29.12.ipa` (29.12 (3)) SHA-256：
 
 ```
-72a49f230835ffec3782ab9fbf9f0d472a944f2c8f4dd8a9877807ac67955d5e
+7c6bab512f9d11d62c722d017fcd6592c768e2f1d4c7355178006df79ea01aa8
 ```
 
-`SIMHub-29.12-widgets.ipa` (29.12 (2)) SHA-256：
+`SIMHub-29.12-widgets.ipa` (29.12 (3)) SHA-256：
 
 ```
-044eef813fe07016fe5b178163de43c89be52e7e9e1073690e6ec1c1048cb120
+70211c7fcf8eb704e4fb58cab130605928946cce8d31a323b75f7fa7225a7e79
 ```
 
 `esimSubscription.ipa` (29.11) SHA-256：
