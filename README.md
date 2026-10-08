@@ -14,14 +14,15 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 
 | 平台 | 版本 | 文件 | 要求 | 说明 |
 |---|---|---|---|---|
-| iOS / iPadOS | **29.12 (1)** | `esimSubscription.ipa` | iOS / iPadOS 17.0 及以上 | **推荐。** 修复重签后启动闪退；功能与 App Store 最后一版相同 |
+| iOS / iPadOS（自签用） | **29.12 (1)** | `SIMHub-29.12-sideload.ipa` | iOS / iPadOS 17.0 及以上 | **用 AltStore / Sideloadly / 轻松签等自签请下这个。** 已去掉小组件、密码自动填充扩展和 iCloud / 推送等受限权限，任何签名工具不用改设置直接签 |
+| iOS / iPadOS（完整包） | 29.12 (1) | `esimSubscription.ipa` | iOS / iPadOS 17.0 及以上 | 开发者登记设备直装用；自签需要手动去权限、去扩展 |
 | iOS / iPadOS（旧系统） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15.0 及以上 | SIMHub 的 iOS 15 兼容版，见下方「SIMKit」 |
 | macOS | 29.11 (1) | `SIMHub-macOS-29.11.zip` | macOS 14 及以上 | 已通过 Apple 公证，见下方「Mac 版」 |
 | Android | 0.1.2 (3) | `SIMHub-Android-0.1.2.apk` | Android 8.0 及以上 | 见下方「Android 版」 |
 
 ## 怎么安装
 
-这个 IPA 是 Ad Hoc 签名，只能直接装到开发者登记过的设备上。其他设备需要**用自己的 Apple ID 重新签名**后安装，常用工具：
+自签请下载 **`SIMHub-29.12-sideload.ipa`**，用自己的 Apple ID 重新签名后安装，常用工具：
 
 - [AltStore](https://altstore.io)（Mac / Windows 配合 AltServer）
 - [Sideloadly](https://sideloadly.io)（Mac / Windows）
@@ -30,9 +31,11 @@ SIMHub 是一款管理实体 SIM / eSIM 卡的 App（iPhone / iPad / Mac，以�
 重签时请注意：
 
 1. 免费 Apple ID 签出来的 App **7 天到期**，到期前用同一工具刷新一次即可，数据不会丢；付费开发者账号一年。
-2. 重签时请**去掉**这几项权限（工具里一般叫「移除权限 / Remove entitlements」）：iCloud（CloudKit）、推送通知（aps-environment）、密码自动填充（autofill-credential-provider）。免费账号签不了这些，不去掉会安装失败。去掉后 iCloud 同步和推送不可用，其他功能不受影响。
-3. App Group 和 Bundle ID 按工具默认处理即可。
-4. 重签后**一启动就闪退**：说明用的是 29.11 或更早的包。换 [29.12](../../releases/tag/v29.12)，它会自动检测签名里有没有 iCloud / App Group 权限，没有就跳过对应功能，不再闪退。
+2. 自签包里没有 iCloud 同步、推送、小组件和密码自动填充，其他功能（读卡器、eSIM 管理、Wi-Fi 通话、短信、电话、台账）都在。
+3. **手机上如果还装着 App Store 下载的 SIMHub，先导出备份再删掉它**，否则会提示无法安装（同一个 App 不能同时存在两种签名）。装好自签版后导入备份即可。
+4. 免费 Apple ID 一周内最多签 10 个 App ID、同时最多装 3 个自签 App，超了会安装失败，删掉一个再试。
+5. 重签后**一启动就闪退**：说明用的是 29.11 或更早的包，换 29.12。
+6. 还是装不上：把签名工具最后的错误提示截图发到 Issues，并写明 iOS 版本和用的工具。
 
 ## SIMKit（iOS 15 兼容版）
 
@@ -79,6 +82,12 @@ SIMKit 是 SIMHub 的 iOS 15 兼容版，功能与 SIMHub 基本一致，适合�
 - 换机或重装前请先在 App 内**导出备份**，重装后再导入（iOS 与 Android 的备份文件互通）。
 
 ## 校验
+
+`SIMHub-29.12-sideload.ipa` SHA-256：
+
+```
+dd5ee6390081ed171b8ae7769a91e0960a2ec6e6ff974343d810166c4d7a015c
+```
 
 `esimSubscription.ipa` (29.12) SHA-256：
 
