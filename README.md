@@ -144,3 +144,27 @@ ab866d59c09435e19ccc616ac9aa6b13a4fd2931bca0a5178e916083a5645148
 ### Disclaimer (English)
 
 For **personal learning and research only**. Use it only with SIM cards and numbers that you legally own. Any illegal use — including telecom fraud, impersonation, harassment, spam, bulk registration, or circumventing carrier rules or real-name requirements — is strictly prohibited. The app blocks calls to mainland China numbers (+86), does not support emergency calls, and never reads or exports SIM secret keys. You are solely responsible for complying with local laws and carrier terms. The software is provided "as is" without warranty of any kind, and the developer is not liable for any loss or consequence arising from its use. SIMHub is independent and not affiliated with any carrier, eSIM provider or reader manufacturer.
+
+## 版权与许可（License）
+
+**Copyright © 2025–2026 SIMHub 开发者。保留所有权利（All rights reserved）。**
+
+本仓库提供的 SIMHub（iOS / Mac / Android）及 SIMKit 安装包为**专有软件（proprietary software），不是开源软件**，不适用任何开源许可证。开发者仅授予你一项**个人、非独占、不可转让、可撤销**的许可，允许你在本人持有的设备上安装并使用本软件，用于个人学习、研究以及管理本人合法持有的 SIM / eSIM。除此之外，**未经开发者书面许可，不得**：
+
+1. **反编译、反汇编、反向工程**本软件，或以任何方式尝试获取其源代码、协议实现与算法；
+2. **修改、翻译、改编**本软件或制作衍生作品，包括重签名后以其他名义发布；
+3. **复制、再分发、转载、出售、出租、出借**本软件，或将其作为其他产品、服务的一部分提供（本仓库 Release 页面的链接可以分享，安装包本身不得转载）；
+4. **用于任何商业用途**，包括但不限于收费提供、商业运营、嵌入商业服务；
+5. 去除或更改本软件中的版权声明、商标与标识。
+
+违反上述条款的，许可自动终止，开发者保留追究法律责任的权利。本软件中包含的第三方开源组件（国旗图标、PLMN 数据、AMR 编解码等）按其各自的许可证使用，相关声明见 App 内「关于」页。
+
+**下载、安装或使用本软件，即表示你已阅读并同意本许可条款及上文免责声明。**
+
+### License (English)
+
+**Copyright © 2025–2026 the SIMHub developer. All rights reserved.**
+
+The SIMHub (iOS / Mac / Android) and SIMKit packages in this repository are **proprietary software, not open source**, and no open-source license applies. You are granted a personal, non-exclusive, non-transferable, revocable license to install and use the software on devices you own, for personal learning and research and for managing SIM / eSIM cards you legally hold. Without the developer's written permission you may **not**: (1) decompile, disassemble or reverse-engineer the software, or attempt to obtain its source code, protocol implementation or algorithms; (2) modify, translate or adapt it or create derivative works, including re-signing and republishing it under another name; (3) copy, redistribute, mirror, sell, rent or lend the software, or bundle it into another product or service (sharing a link to this Releases page is fine; re-uploading the packages is not); (4) use it for any commercial purpose; (5) remove or alter any copyright, trademark or branding notices. Any breach terminates this license automatically, and the developer reserves the right to pursue legal remedies. Bundled third-party open-source components (flag icons, PLMN data, AMR codecs, etc.) remain under their own licenses; see the About page in the app.
+
+**By downloading, installing or using the software you agree to this license and to the disclaimer above.**
