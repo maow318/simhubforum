@@ -14,8 +14,8 @@ SIMHub は、iPhone、iPad、Mac、Android で物理 SIM と eSIM を管理す�
 
 | プラットフォーム | バージョン | ファイル | 要件 | 説明 |
 | --- | --- | --- | --- | --- |
-| iOS / iPadOS | **29.3 (1)** | `SIMHub-29.3.ipa` | iOS / iPadOS 17 以降 | 自分の Apple ID で再署名してください。無料 Apple ID にはこのパッケージを推奨します。 |
-| iOS / iPadOS（ウィジェット対応） | 29.3 (1) | `SIMHub-29.3-widgets.ipa` | iOS / iPadOS 17 以降 | 有料 Apple Developer アカウント向けです。 |
+| iOS / iPadOS | **29.4 (1)** | `SIMHub-29.4.ipa` | iOS / iPadOS 17 以降 | 自分の Apple ID で再署名してください。無料 Apple ID にはこのパッケージを推奨します。 |
+| iOS / iPadOS（ウィジェット対応） | 29.4 (1) | `SIMHub-29.4-widgets.ipa` | iOS / iPadOS 17 以降 | 有料 Apple Developer アカウント向けです。 |
 | iOS / iPadOS（旧版対応） | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15 以降 | iOS 15 / 16 対応版です。 |
 | macOS | 29.22 (3) | `SIMHub-macOS-29.22.zip` | macOS 14 以降 | Apple 公証済みです。 |
 | Android | **23.0 (1)** | `SIMHub-Android-23.0.apk` | Android 8 以降 | [コミュニティ署名版 APK](../../releases/tag/android-v23.0)。 |
@@ -24,7 +24,7 @@ SIMHub は、iPhone、iPad、Mac、Android で物理 SIM と eSIM を管理す�
 
 ### iOS / iPadOS
 
-`SIMHub-29.3.ipa` をダウンロードし、自分の Apple ID で再署名してからインストールしてください。[AltStore](https://altstore.io)、[Sideloadly](https://sideloadly.io) などが利用できます。
+`SIMHub-29.4.ipa` をダウンロードし、自分の Apple ID で再署名してからインストールしてください。[AltStore](https://altstore.io)、[Sideloadly](https://sideloadly.io) などが利用できます。
 
 - 無料 Apple ID の署名は 7 日で失効します。同じツールで更新してください。アプリ内データは残ります。
 - 標準 IPA は無料 Apple ID で署名できるよう、iCloud 同期、プッシュ通知、ウィジェット、パスワード AutoFill を含みません。リーダー、eSIM、Wi-Fi 通話、SMS、通話、カード台帳の主な機能は利用できます。

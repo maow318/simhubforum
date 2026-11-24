@@ -14,8 +14,8 @@ SIMHub — приложение для управления физическим
 
 | Платформа | Версия | Файл | Требование | Примечание |
 | --- | --- | --- | --- | --- |
-| iOS / iPadOS | **29.3 (1)** | `SIMHub-29.3.ipa` | iOS / iPadOS 17+ | Перед установкой подпишите пакет своим Apple ID. |
-| iOS / iPadOS, виджеты | 29.3 (1) | `SIMHub-29.3-widgets.ipa` | iOS / iPadOS 17+ | Для платной учётной записи Apple Developer. |
+| iOS / iPadOS | **29.4 (1)** | `SIMHub-29.4.ipa` | iOS / iPadOS 17+ | Перед установкой подпишите пакет своим Apple ID. |
+| iOS / iPadOS, виджеты | 29.4 (1) | `SIMHub-29.4-widgets.ipa` | iOS / iPadOS 17+ | Для платной учётной записи Apple Developer. |
 | iOS / iPadOS, старые системы | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15+ | Версия для iOS 15 / 16. |
 | macOS | 29.22 (3) | `SIMHub-macOS-29.22.zip` | macOS 14+ | Нотаризировано Apple. |
 | Android | **23.0 (1)** | `SIMHub-Android-23.0.apk` | Android 8+ | [APK с подписью сообщества](../../releases/tag/android-v23.0). |
@@ -24,7 +24,7 @@ SIMHub — приложение для управления физическим
 
 ### iOS и iPadOS
 
-Скачайте `SIMHub-29.3.ipa`, подпишите его своим Apple ID и затем установите. Подходят [AltStore](https://altstore.io), [Sideloadly](https://sideloadly.io) и другие локальные средства подписи.
+Скачайте `SIMHub-29.4.ipa`, подпишите его своим Apple ID и затем установите. Подходят [AltStore](https://altstore.io), [Sideloadly](https://sideloadly.io) и другие локальные средства подписи.
 
 - Подпись бесплатного Apple ID действует семь дней. Обновляйте её тем же инструментом; данные приложения остаются на устройстве.
 - В стандартном IPA нет синхронизации iCloud, push-уведомлений, виджетов и автозаполнения паролей, чтобы его можно было подписать бесплатным Apple ID. Основные функции считывателя, eSIM, Wi‑Fi Calling, SMS, звонков и учёта карт доступны.

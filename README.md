@@ -14,8 +14,8 @@ Download packages from [Releases](../../releases).
 
 | Platform | Version | File | Requirement | Notes |
 | --- | --- | --- | --- | --- |
-| iOS / iPadOS | **29.3 (1)** | `SIMHub-29.3.ipa` | iOS / iPadOS 17+ | Re-sign with your own Apple ID. Recommended for free Apple IDs. |
-| iOS / iPadOS, widgets | 29.3 (1) | `SIMHub-29.3-widgets.ipa` | iOS / iPadOS 17+ | Requires a paid Apple Developer account. |
+| iOS / iPadOS | **29.4 (1)** | `SIMHub-29.4.ipa` | iOS / iPadOS 17+ | Re-sign with your own Apple ID. Recommended for free Apple IDs. |
+| iOS / iPadOS, widgets | 29.4 (1) | `SIMHub-29.4-widgets.ipa` | iOS / iPadOS 17+ | Requires a paid Apple Developer account. |
 | iOS / iPadOS, legacy | SIMKit 7.0 (1) | `SIMKit.ipa` | iOS / iPadOS 15+ | iOS 15/16-compatible edition. |
 | macOS | 29.22 (3) | `SIMHub-macOS-29.22.zip` | macOS 14+ | Notarized by Apple. |
 | Android | **23.0 (1)** | `SIMHub-Android-23.0.apk` | Android 8+ | [Community-signed APK](../../releases/tag/android-v23.0). |
@@ -24,7 +24,7 @@ Download packages from [Releases](../../releases).
 
 ### iOS and iPadOS
 
-Download `SIMHub-29.3.ipa`, re-sign it with your own Apple ID, then install it. [AltStore](https://altstore.io), [Sideloadly](https://sideloadly.io), and other local signing tools can be used.
+Download `SIMHub-29.4.ipa`, re-sign it with your own Apple ID, then install it. [AltStore](https://altstore.io), [Sideloadly](https://sideloadly.io), and other local signing tools can be used.
 
 - A free Apple ID signature expires after seven days. Refresh it with the same tool; app data stays on the device.
 - The standard IPA omits iCloud sync, push notifications, widgets, and password AutoFill so it can be signed by a free Apple ID. Core reader, eSIM, Wi-Fi Calling, SMS, call, and card-ledger features remain available.
